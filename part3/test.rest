@@ -1,0 +1,14 @@
+#GET http://localhost:3001/api/notes
+#Accept: application/json
+
+#DELETE http://localhost:3001/api/notes/1
+#Accept: application/json
+
+### Send POST request with json body
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Dao",
+  "number": "missing"
+}
